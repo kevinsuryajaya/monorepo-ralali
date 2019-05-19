@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-flowtype": "^3.9.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "flow-bin": "^0.98.1",
+    "lerna": "^3.14.1",
+    "prettier": "^1.17.1"
+  },
+  "workspaces": [
+    "shared/*",
+    "src/*"
+  ],
+  "scripts": {
+    "mobile-web:start": "cd src/mobile-web && yarn start",
+    "mobile-web:build": "cd src/mobile-web && yarn build",
+    "desktop-web:start": "cd src/mobile-desktop && yarn start",
+    "desktop-web:build": "cd src/mobile-desktop && yarn build"
+  }
+}

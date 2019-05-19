@@ -1,0 +1,18 @@
+{
+  "name": "mobile-web",
+  "version": "1.0.0",
+  "main": "build/index.html",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-config": "^1.0.0"
+  },
+  "dependencies": {
+    "cli": "^1.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "start": "cli -s start",
+    "build": "cli -s build"
+  }
+}
