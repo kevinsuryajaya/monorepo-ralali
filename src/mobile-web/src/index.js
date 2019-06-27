@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom'
 export default function Root(): React.Node {
   return (
     <React.Fragment>
-      <h2>Hai, from mobile web</h2>
+      <h2>Welcome, from mobile web</h2>
     </React.Fragment>
   )
 }
